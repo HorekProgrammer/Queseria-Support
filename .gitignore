@@ -1,0 +1,27 @@
+# Сборочные файлы
+build/
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+
+# Qt
+*.pro.user
+*.qmake.stash
+*.qmake.cache
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDE
+.idea/
+.vscode/
+*.user
+*.suo
+
+# Логи
+*.log
