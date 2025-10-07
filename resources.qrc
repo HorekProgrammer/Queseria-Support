@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>fonts/Unbounded-Black.ttf</file>
+        <file>logo/github.png</file>
+        <file>logo/telegram.png</file>
+        <file>fonts/Montserrat-SemiBold.ttf</file>
+        <file>logo/information.png</file>
+    </qresource>
+</RCC>

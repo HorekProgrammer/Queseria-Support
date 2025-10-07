@@ -11,7 +11,7 @@ bool startWork(std::string goldenKey, const std::unordered_set<std::string>& dat
 
         std::unordered_set<std::string> idFunpayClear = removeExcessId(idFunpayRaw, dataSkipId);
 
-        if (makeSupportAppeal(goldenKey, idFunpayClear, phpSessId)) return true;
+        if (makeSupportAppeal(goldenKey, idFunpayClear, phpSessId, nullptr)) return true;
         else return false;
     }
     catch (const std::exception& errorMessage) {

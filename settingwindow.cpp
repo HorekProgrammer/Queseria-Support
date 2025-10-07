@@ -20,6 +20,7 @@ settingWindow::settingWindow(QWidget* parent, MainWindow& mainData)
     ui->exceptOrderLabel->setFont(font);
     ui->saveButton->setFont(font);
     ui->phpSessidLabel->setFont(font);
+    ui->imageInformationLabel->setPixmap(QPixmap(":/logo/information.png"));
 
     ui->cookieLabel->setStyleSheet("QLabel {"
         "color: black;"

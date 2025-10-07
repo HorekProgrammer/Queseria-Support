@@ -75,7 +75,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap resource="fonts/resources.qrc">:/logo/information.png</pixmap>
+    <pixmap resource="resources.qrc">:/logo/github.png</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="informationTextLabel">
@@ -151,7 +151,8 @@
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="fonts/resources.qrc"/>
+  <include location="resources.qrc"/>
+  <include location="resources.qrc"/>
  </resources>
  <connections/>
 </ui>

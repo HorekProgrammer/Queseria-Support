@@ -12,7 +12,7 @@ std::unordered_set<std::string> parseOrdersFunpay(const std::string& goldenKey) 
 
     while (r.status_code != 200 && attempts < 3) {
         attempts++;
-        r = cpr::Get(cpr::Url{ "https://funpay.com/orders/trade" }, cpr::Header{ {"Cookie", goldenKey} });
+        r = cpr::Get(cpr::Url{ "https://funpay.com/orders/trade?id=&buyer=&state=paid&game=" }, cpr::Header{ {"Cookie", goldenKey} });
         std::this_thread::sleep_for(std::chrono::seconds(2));
     }
     if (r.status_code != 200) throw std::runtime_error("Не получилось сделать запрос к фанпею, проблема с айпи или интернетом");
